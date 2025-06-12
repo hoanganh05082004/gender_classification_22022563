@@ -1,4 +1,4 @@
-# gender_classification_22022563
+Em chạy trên kaggle nhưng vì vấn đề khi save version nên em phải up lên github. Em mong thầy thông cảm ạ :3 
 # Diễn giải lựa chọn giải pháp
 1. Lựa chọn mô hình
 
