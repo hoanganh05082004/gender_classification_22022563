@@ -13,6 +13,7 @@ Dữ liệu có 4000 ảnh mỗi lớp (Male, Female) trong Train, 500 trong Val
 Batch size: Em chọn 64 sau khi thử 125 bị lỗi OOM, phù hợp với GPU 16GB VRAM.
 Optimizer: Em dùng AdamW với learning_rate=0.0001 và weight_decay=0.0002 để tối ưu và tránh overfitting.
 Callbacks: Em áp dụng ReduceLROnPlateau giảm learning rate sau 3 epoch, ModelCheckpoint lưu mô hình tốt nhất, EarlyStopping dừng sau 7 epoch nếu không cải thiện. Kết quả hội tụ tốt với accuracy 0.96.
+
 4. Đánh giá
 
 Độ chính xác: Đạt 0.96 trên cả mô hình cuối và tốt nhất.
